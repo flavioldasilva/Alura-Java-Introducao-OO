@@ -7,7 +7,7 @@ public class TestaSacaValoresNegativos {
 		
 		conta.saca(101);
 		
-		System.out.println(conta.pegaSaldo());
+		System.out.println(conta.getSaldo());
 		
 		/*nao pode acontecer
 		 * conta.saldo = conta.saldo - 101; System.out.println(conta.saldo);
